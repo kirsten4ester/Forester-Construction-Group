@@ -5,10 +5,6 @@ html {
 body {
     font: 15px/1.5 'Tenor Sans', sans-serif;
     /* font-family: minerva-modern, sans-serif; */
-
-
-    
-
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
@@ -17,6 +13,10 @@ body {
     
     display: flex;
     flex-direction: column;
+}
+
+main {
+    padding-bottom: 20px;
 }
 
 /* ---- GLOBALS ---- */
@@ -56,8 +56,10 @@ header {
     background-color: #ffffff;
     color: #000000;
     padding-top: 30px;
-    height: 80px;
-    min-height: 80px;
+
+    z-index: 900;
+    height: 100px;
+    min-height: 100px;
     position: fixed;
     width: 100%;
     overflow: auto;
@@ -75,7 +77,6 @@ header a {
     font-size: 14px;
 }
 
-/* to make the nav list :horizontal */
 header li {
     float: left;
     display: inline;
@@ -111,11 +112,19 @@ header a:hover {
     min-height: 400px;
     width: 80%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 3%;
     text-align: center;
+    z-index: 1;
 }
 
+/* if going carousel, can delete this (#showcase img) here */
 #showcase img {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#carouselFull {
     width: 100%;
     height: auto;
     margin-top: 5%;
@@ -123,9 +132,9 @@ header a:hover {
 
 #showcase h5 {
     font-size: 17px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 3.5px;
 }
 
 #showcase h6 {
@@ -140,6 +149,7 @@ header a:hover {
 
 #showcase p {
     font-size: 14px;
+    margin-bottom: 20px;
     line-height: 24px;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -168,7 +178,7 @@ aside#sidebar {
     margin-top: 10%;
 }
 
-#main-about .principles {
+#main-about .principals {
     margin: 30px auto;
     background-color: lightblue;
 }
@@ -211,7 +221,8 @@ ul#services li {
 
 /* ---- FOOTER SECTION ----  */
 footer {
-    padding: 5px;
+    padding-bottom: 0;
+    padding-top: 10px;
     margin-top: auto;
     color: #000000;
     background-color: #ffffff;
