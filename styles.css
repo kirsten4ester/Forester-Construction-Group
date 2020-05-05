@@ -5,6 +5,7 @@ html {
 body {
     font: 15px/1.5 'Tenor Sans', sans-serif;
     /* font-family: minerva-modern, sans-serif; */
+    
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
@@ -47,8 +48,13 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: inherit;
+}
+
+a:hover {
+    color: black;
+    font-weight: lighter;
 }
 
 /* ---- HEADER SECTION ---- */
@@ -132,7 +138,7 @@ header a:hover {
 
 #showcase h5 {
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: center;
     letter-spacing: 3.5px;
 }
@@ -149,7 +155,7 @@ header a:hover {
 
 #showcase p {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     line-height: 24px;
     letter-spacing: 1px;
     word-spacing: 1px;
