@@ -271,19 +271,30 @@ aside#sidebar {
 }
 
 /* ---- CONTACT SECTION ---- */
+#contact-container {
+    width: 100%;
+    margin: auto;
+    padding-top: 10%;
+}
+
 #contact-container img {
-    padding-top: 15%;
     width: 100%;
     height: auto;
     margin: auto;
+    margin-bottom: 20px;
 }
 
-.contact-form {
+.contact-forms {
+    width: 80%;
+    margin: auto;
+}
+
+form {
     width: 300px;
     margin: 30px;
 }
 
-.contact-form h3 {
+.contact-forms h3 {
     text-align: center;
     letter-spacing: 6px;
     text-transform: lowercase;
