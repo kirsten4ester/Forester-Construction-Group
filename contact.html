@@ -34,12 +34,37 @@
             </nav>
         </div>
     </header>
-    <main id="showcase">
+
+    <main id="contact-container">
         <div class="container">
-            <h1>CONTACT</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo rerum tempora deserunt delectus in nisi
-                nostrum! Delectus harum magnam quibusdam laudantium deserunt eaque impedit, vitae, dolores, nihil
-                voluptates esse consequatur?</p>
+            <img src="images/img2.jpg" alt="">
+        </div>
+        <div class="contact-form">
+            <form action="POST" data-netlify="true">
+                <div class="fields">
+                    <div class="field half">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="field half">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="field half">
+                        <input type="number" name="phone" id="phone" placeholder="Phone">
+                    </div>
+                    <div class="field">
+                        <textarea name="inquiry" id="inquiry" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="field">
+                        <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7">
+                    </div>
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="button primary"></li>
+                </ul>
+            </form>
         </div>
     </main>
     <!-- FOOTER -->
