@@ -284,11 +284,18 @@ aside#sidebar {
     margin: 30px;
 }
 
+.contact-form h3 {
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: lowercase;
+}
+
 .field {
     /* border: solid black 1px; */
     background-color: #ffffff;
     margin: 5px auto;
     width: 300px;
+
 }
 
 .actions {
@@ -299,6 +306,13 @@ aside#sidebar {
     font-variant: small-caps;
     letter-spacing: 3px;
     width: 300px;
+}
+
+::placeholder {
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    
 }
 
 /* ---- FOOTER SECTION ----  */
