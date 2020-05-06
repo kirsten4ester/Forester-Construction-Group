@@ -4,14 +4,12 @@ html {
 
 body {
     font: 15px/1.5 'Tenor Sans', sans-serif;
-    /* font-family: minerva-modern, sans-serif; */
-    
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
     width: 100%;
     min-height: 100%;
-    
+
     display: flex;
     flex-direction: column;
 }
@@ -55,6 +53,12 @@ a {
 a:hover {
     color: black;
     font-weight: lighter;
+}
+
+h3 {
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 
 /* ---- HEADER SECTION ---- */
@@ -208,9 +212,6 @@ header a:hover {
 }
 
 #services-section h3 {
-    font-variant: small-caps;
-    font-size: 20px;
-    letter-spacing: 3px;
     margin: 15px auto;
 }
 
@@ -244,12 +245,6 @@ article#main-col {
 }
 
 /* ------ ABOUT SECTION ------ */
-.principals h3 {
-    font-variant: small-caps;
-    font-size: 20px;
-    letter-spacing: 3px;
-}
-
 #main-about {
     /* background-color: lavenderblush; */
     margin-top: 10%;
@@ -273,6 +268,31 @@ aside#sidebar {
     float: right;
     width: 30%;
     margin-top: 10px;
+}
+
+/* ---- CONTACT SECTION ---- */
+#contact-container img {
+    padding-top: 15%;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.contact-form {
+    border: solid black 1px;
+    width: 300px;
+    margin: 30px;
+}
+
+.field {
+    border: solid black 1px;
+    background-color: #ffffff;
+    margin: 5px auto;
+}
+
+.actions {
+    list-style-type: none;
+
 }
 
 /* ---- FOOTER SECTION ----  */
