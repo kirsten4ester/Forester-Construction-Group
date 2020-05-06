@@ -328,6 +328,21 @@ form {
     width: 300px;
 }
 
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 400px;
+}
+
 /* ---- FOOTER SECTION ----  */
 footer {
     padding-bottom: 0;
