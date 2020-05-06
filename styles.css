@@ -279,7 +279,6 @@ aside#sidebar {
 }
 
 .contact-form {
-    /* border: solid black 1px; */
     width: 300px;
     margin: 30px;
 }
@@ -291,10 +290,17 @@ aside#sidebar {
 }
 
 .field {
-    /* border: solid black 1px; */
     background-color: #ffffff;
     margin: 5px auto;
     width: 300px;
+    border: none;
+    box-shadow: none;
+}
+
+::placeholder {
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    text-transform: lowercase;
 
 }
 
@@ -306,13 +312,6 @@ aside#sidebar {
     font-variant: small-caps;
     letter-spacing: 3px;
     width: 300px;
-}
-
-::placeholder {
-    font-variant: small-caps;
-    letter-spacing: 3px;
-    text-transform: lowercase;
-    
 }
 
 /* ---- FOOTER SECTION ----  */
