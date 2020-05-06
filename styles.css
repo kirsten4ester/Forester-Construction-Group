@@ -291,21 +291,20 @@ aside#sidebar {
 
 .field {
     background-color: #ffffff;
-    margin: 5px auto;
+    margin: 10px auto;
     width: 300px;
-    border: none;
-    box-shadow: none;
+}
+
+.half {
+    height: 30px;
 }
 
 ::placeholder {
     font-variant: small-caps;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     text-transform: lowercase;
-    /* width: 300px;
-    border: none;
-    box-shadow: none; 
-    background-color: #ffffff; */
-
+    color: rgb(192, 192, 192); 
+    padding: 0 5px;
 }
 
 .actions {
