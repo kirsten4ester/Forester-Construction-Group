@@ -198,6 +198,7 @@ header a:hover {
     font-variant: small-caps;
     letter-spacing: 3px;
     font-weight: 100;
+    padding-top: 15px;
 }
 
 /* ---- SERVICES SECTION ---- */
@@ -209,48 +210,32 @@ header a:hover {
 #services-section h3 {
     font-variant: small-caps;
     font-size: 20px;
-}
-
-/* ---- ABOUT || SIDEBAR SECTION ----  */
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
-}
-
-/* ---- SERVICES || SIDEBAR SECTION ----  */
-#main-about {
-    background-color: lavenderblush;
-    margin-top: 10%;
-}
-
-#main-about .principals {
-    margin: 30px auto;
-    background-color: lightblue;
-}
-
-#main-about .page-title {
-    font-weight: 100;
     letter-spacing: 3px;
+    margin: 15px auto;
 }
 
-#main-about p {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    /* margin: 30px auto; */
+ul#services li {
+    list-style: none;
+    padding: 10px;
 }
 
+
+/* ======= I THINK I CAN DELETE ALL OF THIS? ============= */
+/* ---- SERVICES || SIDEBAR SECTION ----  */
 aside#sidebar .quote input, aside#sidebar .quote textarea{
     width: 90%;
     padding: 5px;
+}
+
+aside #sidebar {
+    width: 100%;
 }
 
 #sidebar img {
     width: 400px;
     height: auto;
 }
+/* ================================== */
 
 /* ---- MAIN-COL SECTION ----  */
 article#main-col {
@@ -258,11 +243,36 @@ article#main-col {
     width: 65%;
 }
 
-/* ---- SERVICES SECTION ---- */
-ul#services li {
-    list-style: none;
-    padding: 20px;
-    margin-bottom: 5px;
+/* ------ ABOUT SECTION ------ */
+.principals h3 {
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#main-about {
+    /* background-color: lavenderblush; */
+    margin-top: 10%;
+    width: 100%;
+}
+
+#main-about p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+article#main-col {
+    margin: 50px auto;
+    /* border: solid black 2px; */
+}
+
+/* ---- ABOUT || SIDEBAR SECTION ----  */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
 }
 
 /* ---- FOOTER SECTION ----  */
