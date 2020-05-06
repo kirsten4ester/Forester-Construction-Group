@@ -301,6 +301,10 @@ aside#sidebar {
     font-variant: small-caps;
     letter-spacing: 3px;
     text-transform: lowercase;
+    /* width: 300px;
+    border: none;
+    box-shadow: none; 
+    background-color: #ffffff; */
 
 }
 
