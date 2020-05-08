@@ -344,15 +344,45 @@ form {
 }
 
 .contact-buttons {
+    margin: 30px auto;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+}
+
+.contact-box {
+    border: solid gold 4px;
+    margin: 30px;
+    width: 250px;
+}
+
+.contact-box p,
+.contact-box a {
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+img.contact-img {
+    border: solid pink 4px;
+    width: 5%;
+}
+
+/* .contact-buttons {
     width: 300px;
     height: 300px;
     align-content: center;
-}
+} */
 
-.contact-box img {
-    width: 30px;
-    height: auto;
-}
+/* .contact-box {
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    overflow: hidden;
+} */
 
 /* ---- FOOTER SECTION ----  */
 footer {
