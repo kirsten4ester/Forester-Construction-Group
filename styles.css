@@ -354,6 +354,7 @@ form {
     border: solid gold 4px;
     margin: 30px;
     width: 250px;
+    display: inline-block;
 }
 
 .contact-box p,
