@@ -191,8 +191,22 @@ header a:hover {
     z-index: 1;
 }
 
+.projects-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+    display: grid;
+    /* UNCOMMENT WITH 3 PROJECTS+ */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(200px, auto);
+    grid-gap: 4em;
+    justify-items: stretch;
+    align-items: stretch; */
+}
+
 #projects img {
-    width: 60%;
+    width: 100%;
     height: auto;
     margin-top: 5%;
 }
@@ -275,6 +289,11 @@ aside#sidebar {
     width: 100%;
     margin: auto;
     padding-top: 10%;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px; */
 }
 
 #contact-container img {
@@ -282,6 +301,11 @@ aside#sidebar {
     height: auto;
     margin: auto;
     margin-bottom: 20px;
+
+    /* display: flex;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 6;
+    flex-direction: row; */
 }
 
 .contact-forms {
@@ -437,4 +461,5 @@ footer a {
         width: 100%;
         margin-bottom: 5px;
     }
+    
 }
