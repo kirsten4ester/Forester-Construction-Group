@@ -134,7 +134,15 @@ header a:hover {
     margin-top: 5%;
 } */
 
-#carouselExampleControls {
+#carouselFull {
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#carouselFullEstero {
     width: 80%;
     height: auto;
     margin-top: 10%;
