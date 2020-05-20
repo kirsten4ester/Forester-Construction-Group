@@ -134,10 +134,12 @@ header a:hover {
     margin-top: 5%;
 } */
 
-#carouselFull {
-    width: 100%;
+#carouselExampleControls {
+    width: 80%;
     height: auto;
-    margin-top: 14%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #showcase-content {
