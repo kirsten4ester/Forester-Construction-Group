@@ -314,7 +314,6 @@ ul#services li {
     padding: 10px;
 }
 
-
 /* ======= I THINK I CAN DELETE ALL OF THIS? ============= */
 /* ---- SERVICES || SIDEBAR SECTION ----  */
 aside#sidebar .quote input, aside#sidebar .quote textarea{
@@ -354,7 +353,6 @@ article#main-col {
 
 article#main-col {
     margin: 50px auto;
-    /* border: solid black 2px; */
 }
 
 /* ---- ABOUT || SIDEBAR SECTION ----  */
@@ -443,51 +441,6 @@ form {
     font-size: 14px;
 }
 
-
-/* IS THIS EVEN FOR ANYTHING NOW? -- 5/21 implementing bs */
-/* .contact-forms {
-    border: solid blue 5px;
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(300px, auto);
-    grid-gap: 1em;
-    justify-items: stretch;
-    align-items: stretch;
-} */
-
-/* 
-.contact-buttons {
-    margin: 30px auto;
-    align-content: center;
-    width: 80%;
-    text-align: center;
-}
-
-.contact-box {
-    border: solid gold 4px;
-    margin: 50px;
-    width: 200px;
-    display: inline-block;
-}
-
-.contact-box p,
-.contact-box a {
-    line-height: 20px;
-    letter-spacing: 2px;
-    margin: 0;
-    text-align: center;
-    font-size: 13px;
-}
-
-img.contact-img {
-    border: solid pink 4px;
-    padding: 50px;
-    width: 20px;
-    height: 20px;
-} */
-
 /* ---- FOOTER SECTION ----  */
 footer {
     padding-bottom: 0;
@@ -538,5 +491,4 @@ footer a {
         width: 100%;
         margin-bottom: 5px;
     }
-    
 }
