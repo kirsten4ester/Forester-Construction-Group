@@ -206,7 +206,6 @@ header a:hover {
     height: auto;
     margin: auto;
     align-content: center;
-
     /* display: grid; */
     /* UNCOMMENT once 3 PROJECTS+ */
     /* grid-template-columns: repeat(3, 1fr);
@@ -214,17 +213,9 @@ header a:hover {
     grid-gap: 4em;
     justify-items: stretch;
     align-items: stretch; */
-
-    /* HOVER TUTORIAL */
-    /* width: 1280px;
-    margin: 70px auto 0; */
-
-    /* doing hover, switching display to flex*/
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
 }
 
+/* /// HOVER IMAGE */
 .projects-container .box {
     position: relative;
     width: 350px;
@@ -279,9 +270,7 @@ header a:hover {
     color: #ffffff;
     text-align: center;
 }
-
-
-
+/* HOVER IMAGE //// */
 
 #projects img {
     width: 100%;
@@ -296,17 +285,17 @@ header a:hover {
     font-weight: 100;
     padding-top: 15px;
 }
-
+/* ESTERO H3 */
 .project-h3 {
     font-variant: small-caps;
     font-size: 20px;
     letter-spacing: 3px;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 
 #showcase .estero {
-    margin-top: 2%;
-    width: 60%;
+    margin-top: 10%;
+    width: 50%;
     height: auto;
 }
 
