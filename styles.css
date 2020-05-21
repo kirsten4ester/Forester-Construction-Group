@@ -369,11 +369,6 @@ aside#sidebar {
     width: 100%;
     margin: auto;
     padding-top: 10%;
-
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px; */
 }
 
 #contact-container img {
@@ -381,112 +376,9 @@ aside#sidebar {
     height: auto;
     margin: auto;
     margin-bottom: 20px;
-
-    /* display: flex;
-    grid-row: 1 / span 3;
-    grid-column: 1 / span 6;
-    flex-direction: row; */
 }
 
-/* CONTACT2 GRID EXPERIMENTS */
-/* main div -- holds map, form, contact icons */
-.contact-elements {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: minmax(300px, auto);
-    grid-gap: 1em;
-    justify-items: stretch;
-    align-items: stretch;
-}
-
-.contact-elements > .map {
-    grid-column: 1/3;
-    grid-row: 1;
-    text-align: center;
-    margin: 0 auto;
-    border: solid black 5px;
-
-}
-
-.contact-elements > .form {
-    grid-column: 3/6;
-    grid-row: 1;
-    text-align: center;
-    margin: 0 auto;
-    border: solid black 5px;
-}
-
-.contact-elements > .contact-icons {
-    grid-column: 1/6;
-    grid-row: 2;
-    text-align: center;
-    margin: 0 auto;
-    border: solid black 5px;
-}
-
-.nested {
-    border: solid black 5px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 70px;
-    grid-gap: 1em;
-}
-
-.icon1 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.icon2 {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.icon3 {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-
-
-
-
-
-
-
-.contact-forms {
-    border: solid blue 5px;
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(300px, auto);
-    grid-gap: 1em;
-    justify-items: stretch;
-    align-items: stretch;
-}
-
-.mapouter {
-    /* border: solid fuchsia 5px;
-    grid-column: 1;
-    grid-row: 1; */
-    position: relative;
-    text-align: right;
-    height: 400px;
-    width: 400px;
-    margin: 30px auto;
-
-}
-
-.gmap_canvas {
-    grid-column: 1;
-    grid-row: 1;
-    overflow: hidden;
-    background: none !important;
-    height: 400px;
-    width: 400px;
-}
-
+/* BOOTSTRAP GRID PLAY FOR CONTACT2 */
 form {
     width: 300px;
     margin: 40px auto;
@@ -504,6 +396,7 @@ form {
     background-color: #ffffff;
     margin: 10px auto;
     width: 300px;
+    text-align: left;
 }
 
 .half {
@@ -528,10 +421,43 @@ form {
     width: 300px;
     margin: 1px auto;
     align-items: center;
-    align-content: center;
-    
+    align-content: center;  
 }
 
+.icon-row {
+    margin-top: 30px;
+}
+.icon-div {
+    width: 50px;
+    margin: auto;
+}
+
+.contact-cell {
+    text-align: center;
+}
+
+.contact-cell p {
+    line-height: 20px;
+    margin: 2px;
+    font-variant: small-caps;
+    font-size: 14px;
+}
+
+
+/* IS THIS EVEN FOR ANYTHING NOW? -- 5/21 implementing bs */
+/* .contact-forms {
+    border: solid blue 5px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+} */
+
+/* 
 .contact-buttons {
     margin: 30px auto;
     align-content: center;
@@ -544,18 +470,6 @@ form {
     margin: 50px;
     width: 200px;
     display: inline-block;
-}
-
-.email {
-    
-}
-
-.hours {
-   
-}
-
-.phone {
-    
 }
 
 .contact-box p,
@@ -572,20 +486,6 @@ img.contact-img {
     padding: 50px;
     width: 20px;
     height: 20px;
-}
-
-/* .contact-buttons {
-    width: 300px;
-    height: 300px;
-    align-content: center;
-} */
-
-/* .contact-box {
-    margin: 30px;
-    width: 300px;
-    height: 300px;
-    align-content: center;
-    overflow: hidden;
 } */
 
 /* ---- FOOTER SECTION ----  */
