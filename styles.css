@@ -229,6 +229,19 @@ header a:hover {
     padding-top: 15px;
 }
 
+.project-h3 {
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 10%;
+}
+
+#showcase .estero {
+    margin-top: 2%;
+    width: 60%;
+    height: auto;
+}
+
 /* ---- SERVICES SECTION ---- */
 #services-section {
     width: 100%;
