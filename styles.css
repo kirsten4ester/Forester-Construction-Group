@@ -202,9 +202,10 @@ header a:hover {
 }
 
 .projects-container {
-    /* width: 100%;
+    width: 100%;
     height: auto;
-    margin: auto; */
+    margin: auto;
+    align-content: center;
 
     /* display: grid; */
     /* UNCOMMENT once 3 PROJECTS+ */
@@ -215,13 +216,13 @@ header a:hover {
     align-items: stretch; */
 
     /* HOVER TUTORIAL */
-    width: 1280px;
-    margin: 70px auto 0;
+    /* width: 1280px;
+    margin: 70px auto 0; */
 
     /* doing hover, switching display to flex*/
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .projects-container .box {
