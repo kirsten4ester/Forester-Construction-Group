@@ -64,27 +64,9 @@ h3 {
 
 /* ---- HEADER SECTION ---- */
 
-/* header {
-    background-color: #ffffff;
-    color: #000000;
-    padding-top: 30px;
-
-    z-index: 900;
-    height: 120px;
-    min-height: 120px;
-    position: fixed;
-    width: 100%;
-    overflow: auto;
-} */
-
 header .container {
     width: 80%;
     margin: auto;
-}
-
-.navbar {
-    border: solid red 1px;
-    margin-bottom: 20%;
 }
 
 .navbar-brand img {
@@ -133,13 +115,6 @@ ul.navbar-nav {
     text-align: center;
     z-index: 1;
 }
-
-/* if going carousel, can delete this (#showcase img) here */
-/* #showcase img {
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
-} */
 
 #carouselFull {
     width: 80%;
@@ -321,52 +296,15 @@ ul#services li {
     padding: 10px;
 }
 
-/* ======= I THINK I CAN DELETE ALL OF THIS? ============= */
-/* ---- SERVICES || SIDEBAR SECTION ----  */
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-    width: 90%;
-    padding: 5px;
-}
-
-aside #sidebar {
-    width: 100%;
-}
-
-#sidebar img {
-    width: 400px;
-    height: auto;
-}
-/* ================================== */
-
-/* ---- MAIN-COL SECTION ----  */
-article#main-col {
-    float: left;
-    width: 65%;
-}
-
 /* ------ ABOUT SECTION ------ */
-#main-about {
-    /* background-color: lavenderblush; */
-    margin-top: 10%;
+.about-p {
+    line-height: 28px;
+}
+
+.principals > img {
     width: 100%;
-}
-
-#main-about p {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-}
-
-article#main-col {
-    margin: 50px auto;
-}
-
-/* ---- ABOUT || SIDEBAR SECTION ----  */
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
+    height: auto;
+    margin: auto;
 }
 
 /* ---- CONTACT SECTION ---- */
@@ -467,13 +405,11 @@ footer a {
 }
 
 /* ---- MEDIA QUERIES ----  */
-
         /* Small devices (landscape phones) */
-
         @media (min-width: 576px) {
-            body {
+            /* body {
                 background-color: red;
-            }
+            } */
 
             header {
                 margin-bottom: 65px;
@@ -481,49 +417,40 @@ footer a {
         }
 
         /* Medium devices (tablets) */
-
         @media (min-width: 768px) {
-            body {
+            /* body {
                 background-color: blue;
-            }
-
+            } */
             header {
                 margin-bottom: 55px;
             }
         }
 
         /* Large devices (desktops) */
-
         @media (min-width: 992px) {
-            body {
+            /* body {
                 background-color: green;
-            }
-
+            } */
             header {
                 margin-bottom: 30px;
             }
         }
 
         /* Extra large devices (large desktops) */
-
         @media (min-width: 1200px) {
-            body {
+            /* body {
                 background-color: yellow;
-            }
-
+            } */
             header {
                 margin-bottom: 30px;
             }
         }
 
-        /* The given screen size or smaller */
-
         /* Extra small devices (portrait phones)*/
-
         @media (max-width: 575px) {
-            body {
+            /* body {
                 background-color: coral;
-            }
+            } */
 
             header {
                 margin-bottom: 75px;
@@ -531,9 +458,9 @@ footer a {
         }
 
         @media (max-width: 415px) {
-            body {
+            /* body {
                 background-color: fuchsia;
-            }
+            } */
 
             header {
                 margin-bottom: 100px;
@@ -581,6 +508,13 @@ footer a {
 
             h6 {
                 font-size: 12px !important;
+            }
+
+            .contact-cell,
+            .icon-row {
+                border: solid black 5px;
+                margin: 0;
+                padding: 0;
             }
         }
 
