@@ -1,5 +1,4 @@
 /* ---- GLOBALS ---- */
-
 html {
     height: 100%;
 }
@@ -106,12 +105,12 @@ ul.navbar-nav {
     font-weight: 900;
 }
 
+
 /* ---- SHOWCASE SECTION ---- */
 #showcase {
     min-height: 400px;
     width: 100%;
     margin: 0 auto;
-    /* padding-top: 1%; */
     text-align: center;
     z-index: 1;
 }
