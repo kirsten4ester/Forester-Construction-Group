@@ -21,22 +21,37 @@
 </head>
 
 <body>
-    <header>
+ <!-- NEW HEADER -->
+ <header>
+    <nav class="navbar navbar-expand-xl d-flex fixed-top pt-3 bg-white">
         <div class="container">
-            <div id="branding">
-                <a href="index.html"> <img src="images/logo.png" alt=""></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="current"><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+            <a class="navbar-brand" href="index.html"><img
+                    src="images/logo.png" alt="Forester Construction Group"></a>
+            <button class="navbar-toggler navbar-light" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link current" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
+</header>
 
     <main id="showcase">
         <!-- <h3 class="project-h3">Coastal Condo</h3> -->
