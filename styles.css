@@ -320,7 +320,6 @@ ul#services li {
     margin-bottom: 20px;
 }
 
-/* BOOTSTRAP GRID PLAY FOR CONTACT2 */
 form {
     width: 300px;
     margin: 40px auto;
@@ -513,6 +512,16 @@ footer a {
             .icon-row {
                 margin: 0;
                 padding: 0;
+            }
+
+            /* ABOUT TWEAKS */
+            .about-h3 {
+                font-size: 16px;
+                font-weight: 900;
+            }
+
+            .about-cell {
+                margin-top: 10px !important;
             }
         }
 
